@@ -25,8 +25,8 @@ function App() {
   return (
     <div className='App'>
       <Router>
-        <Route path={'/:page'} component={Header} />
-        <Route exact path={'/'} component={Header} />
+        <Route path='/:page' component={Header} />
+        <Route exact path='/' component={Header} />
 
         <Route exact path='/' component={Home} />
         <Route exact path='/home' component={Home} />
